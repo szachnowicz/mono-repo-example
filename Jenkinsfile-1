@@ -1,0 +1,6 @@
+@Library('shared-library') _
+monoRepoPipeline {
+  baseAgent = 'linux'
+    NoteJsModuleAgent = 'node:17.1.0-bullseye'
+    ExampleJavaAgent = 'maven:3.8.3-openjdk-17'
+}

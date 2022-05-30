@@ -38,7 +38,7 @@ pipeline {
       steps {
         dir ('ExampleJava') {
           sh 'mvn --version'
-          sh 'cat web.txt'
+          sh 'mvn test'
         }
       }
     }
